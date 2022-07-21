@@ -14,9 +14,7 @@
 body {
   background-color: var(--primary-background-color);
   }
-ul{
-  list-style-type: none;
-}
+
 /* Header */
 .header {
   background-color: #ffffff;
@@ -24,6 +22,7 @@ ul{
 
 .logo-color {
   color: var(--accent-color);
+  
 }
 .header a {
   text-decoration: none;
@@ -216,4 +215,14 @@ ul{
 .btn-secondary-type:focus {
   background-color: var(--accent-color);
   color: #ffffff;
+}
+.nav,
+.contact,
+.features-list,
+.field-action-list,
+.team-list,
+.footer-contact-list,
+.btn-list,
+.examples-list {
+  list-style-type: none;
 }
