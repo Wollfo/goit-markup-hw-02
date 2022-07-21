@@ -14,7 +14,17 @@
 body {
   background-color: var(--primary-background-color);
   }
-
+/* Маркировка списков */
+.nav,
+.contact,
+.features-list,
+.field-action-list,
+.team-list,
+.footer-contact-list,
+.btn-list,
+.examples-list {
+  list-style-type: none;
+}
 /* Header */
 .header {
   background-color: #ffffff;
@@ -215,14 +225,4 @@ body {
 .btn-secondary-type:focus {
   background-color: var(--accent-color);
   color: #ffffff;
-}
-.nav,
-.contact,
-.features-list,
-.field-action-list,
-.team-list,
-.footer-contact-list,
-.btn-list,
-.examples-list {
-  list-style-type: none;
 }
