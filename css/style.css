@@ -13,8 +13,8 @@
 }
 body {
   background-color: var(--primary-background-color);
-}
-li {
+  }
+ul{
   list-style-type: none;
 }
 /* Header */
