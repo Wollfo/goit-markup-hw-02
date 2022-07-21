@@ -15,7 +15,7 @@ body {
   background-color: var(--primary-background-color);
 }
 li {
-list-style-type: none;
+  list-style-type: none;
 }
 /* Header */
 .header {
