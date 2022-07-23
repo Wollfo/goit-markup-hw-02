@@ -218,6 +218,7 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+/* Address */
 .address {
   font-style: normal;
 }
